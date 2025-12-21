@@ -1,0 +1,23 @@
+x/* assets/css/style.css */
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fafafa; color:#111; }
+header { background:#fff; padding:1rem; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+header h1 { margin:0; font-size:1.8rem; }
+header p { margin:0.2rem 0 0; font-size:0.9rem; color:#555; }
+.container { max-width:900px; margin:auto; padding:0 1rem; }
+.intro { max-width:900px; margin:2rem auto; padding:0 1rem; text-align:center; }
+.intro h2 { font-size:1.5rem; margin-bottom:0.5rem; }
+.grid-section { max-width:900px; margin:2rem auto; padding:0 1rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; }
+.card { background:#fff; border-radius:1rem; box-shadow:0 2px 6px rgba(0,0,0,0.1); overflow:hidden; transition:0.2s; }
+.card:hover { box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+.card img { width:100%; height:150px; object-fit:cover; }
+.card .content { padding:0.5rem; }
+.card .content p { margin:0.3rem 0; }
+.card .actions { display:flex; gap:0.5rem; margin-top:0.5rem; }
+.btn { flex:1; text-align:center; padding:0.4rem 0; border-radius:0.8rem; font-weight:bold; cursor:pointer; transition:0.2s; }
+.btn-primary { background:#db2777; color:#fff; }
+.btn-primary:hover { background:#be185d; }
+.btn-light { background:#fff; border:1px solid #e5e7eb; color:#111; }
+footer { text-align:center; font-size:0.8rem; padding:1rem; color:#555; }
+
+---
